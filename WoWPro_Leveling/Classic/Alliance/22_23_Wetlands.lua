@@ -34,15 +34,13 @@ T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwe
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 
 F Menethil Harbor|QID|288|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
-F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thelsamar|TAXI|Thelsamar|
-R Loch Modan|AVAILABLE|455|M||N|Head out of Ironforge towards Loch Modan|TAXI|-Thelsamar|
-f Thelsamar|AVAILABLE|455|M|33.80,50.80|Z|Loch Modan|N|Get the FP from the Flight Master in Thelsamar|TAXI|-Thelsamar|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|TAXI|Thelsamar|
-R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|TAXI|Thelsamar|
-C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|Thelsamar|
-A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|Thelsamar|
-T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|Thelsamar|
-T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|TAXI|Thelsamar|
+F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thelsamar|TAXI|-Menethil Harbor|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
+R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|TAXI|-Menethil Harbor|
+C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|
+A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|-Menethil Harbor|
+T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|-Menethil Harbor|
+T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|TAXI|-Menethil Harbor|
 
 A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|
 A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|

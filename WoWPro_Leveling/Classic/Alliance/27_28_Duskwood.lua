@@ -69,7 +69,7 @@ T The Shadowy Search Continues|QID|265|M|72.5,46.8|N|To Clerk Daltry.|
 A Inquire at the Inn|QID|266|M|72.5,46.8|N|From Clerk Daltry.|PRE|265|
 T Inquire at the Inn|QID|266|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A Finding the Shadowy Figure|QID|453|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|266|
-F Stormwind|QID|453|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin^Rogue|
+F Stormwind|QID|453|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin,Rogue|
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
@@ -81,7 +81,7 @@ T The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C
 A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
 C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
 T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
-N Sell junk, repair, train skills|QID|453|N|Close this step when you're done.|C|Paladin^Rogue|
+N Sell junk, repair, train skills|QID|453|N|Close this step when you're done.|C|Paladin,Rogue|
 F Darkshire|QID|453|N|Fly back to Darkshire, Duskwood.|Z|Stormwind City|M|71,72.6|C|Paladin|
 T Finding the Shadowy Figure|QID|453|M|18.13,56.32|N|To Jitters.|
 A Return to Sven|QID|268|M|18.13,56.32|N|From Jitters.|PRE|453|
