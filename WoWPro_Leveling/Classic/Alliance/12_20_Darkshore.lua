@@ -267,7 +267,7 @@ R Dun Morogh|QID|968|M|32.0,6.4;17.7,16.4|CS|Z|Dun Morogh|N|Wait for the boat to
 R Kharanos|QID|968|M|17.9,17|Z|Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|
 R Ironforge|QID|968|M|47.40,41.80;54.2,34.40|CS|N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|
 R Deeprun Tram|QID|968|M|78.20,52.00|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
-f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
+f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
 T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 R Deeprun Tram|QID|244|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
