@@ -20,7 +20,7 @@ h Lakeshire|QID|126|M|27.97,44.96|N|Set your hearthstone at Innkeeper Brianna|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|
 C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|
-R Gnoll Camps|ACTIVE|126|M|40.00,33.10|CC|N|Head north-east out of Lakeshire|
+R Gnoll Camps|ACTIVE|126|M|40.00,33.10|CC|N|Head north-east out of Lakeshire.|
 C Howling in the Hills|QID|126|M|40.00,33.10;27.00,21.00|CS|N|Kill Yowler and loot his paw. He patrols between the camps in this area|
 R Render's Camp|ACTIVE|20|M|47.60,27.90|CC|N|Get back on the road and head towards Render's Camp|
 C Blackrock Menace|QID|20|M|29.2,11.60|S|N|Kill Orcs until you get the items for this quest.|
