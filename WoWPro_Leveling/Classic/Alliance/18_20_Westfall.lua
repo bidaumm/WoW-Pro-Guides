@@ -14,8 +14,8 @@ C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill any Harvests to collect Flasks of Oi
 C Hops|AVAILABLE|103|ACTIVE|116|L|1274 5|N|Kill any Harvesters to collect Hops.|S|
 C The Defias Brotherhood|ACTIVE|142|L|1381|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |S|
 K Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
-K Hops|AVAILABLE|103|ACTIVE|116|M|46.40,66.61;38.20,51.90;44.90,34.70;51.20,20.8;58.4,18.0;53.80,32.10;62.50,60.9|CN|L|1274 5|N|Finish collecting the hops from the Harvesters at any of these locations|US|
-K Flasks of Oil|AVAILABLE|103|M|46.40,66.61|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters|US|
+K Hops|AVAILABLE|103|ACTIVE|116|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|US|
+K Flasks of Oil|AVAILABLE|103|M|46.40,66.61|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|US|
 C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|
 A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|
