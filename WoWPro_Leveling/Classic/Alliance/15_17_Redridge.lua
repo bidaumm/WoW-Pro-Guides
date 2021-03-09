@@ -91,7 +91,7 @@ A Delivering Daffodils|QID|131|M|21.85,46.32|N|From Martie Jainrose.|PRE|130|
 T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy. She wanders around a bit.|
 
 R Duskwood|ACTIVE|132|M|6.42,91.32|N|Go to Duskwood|
-R Darkshire|ACTIVE|132|M|72.40,37.99|Z|Duskwood|N|Cntinue following the road south into Darkshire.|
+R Darkshire|ACTIVE|132|M|72.40,37.99|Z|Duskwood|N|Continue following the road south into Darkshire.|
 B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|Duskwood|L|1942|N|Buy a Bottle of Moonshine from Barkeep Hann.|
 f Darkshire|QID|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
 F Sentinel Hill|ACTIVE|132|M|77.50,44.30|Z|Duskwood|N|Fly to Sentinel Hill.|
