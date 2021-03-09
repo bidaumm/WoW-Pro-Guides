@@ -25,7 +25,7 @@ T The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Pala
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
-N Sell junk and repair - WARNING|AVAILABLE|3765|N|Don't sell the Lean Wolf Flanks if you have any. We'll need 10 for a quest at level 27, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables. Close this step when you're done.|
+N Sell junk and repair - WARNING|AVAILABLE|1078|N|Don't sell the Lean Wolf Flanks if you have any. We'll need 10 for a quest at level 27, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables. Close this step when you're done.|
 A Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
 R Deeprun Tram|AVAILABLE|288|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|Stormwind City|
 R Tinker Town|AVAILABLE|288|N|Take the tram to Ironforge.|
