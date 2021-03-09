@@ -10,7 +10,7 @@ F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
 T Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 T Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 T Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
-A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|R|-NightElf|
+A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|TAXI|Thelsamar|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 A The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|
 T The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
@@ -32,18 +32,21 @@ R Tinker Town|AVAILABLE|288|N|Take the tram to Ironforge.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
-F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thalsamar (or run if you don't have the FP yet), Loch Modan|R|-NightElf|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|R|-NightElf|
-R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|R|-NightElf|
-C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|R|-NightElf|
-C The Algaz Gauntlet|QID|455||QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.|R|NightElf|
-A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|R|-NightElf|
-T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|R|-NightElf|
-T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|R|-NightElf|
-F Menethil Harbor|QID|288|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|R|NightElf|
+
+F Menethil Harbor|QID|288|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
+F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thelsamar|TAXI|Thelsamar|
+R Loch Modan|AVAILABLE|455|M||N|Head out of Ironforge towards Loch Modan|TAXI|-Thelsamar|
+f Thelsamar|AVAILABLE|455|M|33.80,50.80|Z|Loch Modan|N|Get the FP from the Flight Master in Thelsamar|TAXI|-Thelsamar|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|TAXI|Thelsamar|
+R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|TAXI|Thelsamar|
+C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|Thelsamar|
+A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|Thelsamar|
+T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|Thelsamar|
+T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|TAXI|Thelsamar|
+
 A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|
 A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|
-f Menethil Harbor|QID|279|N|Get the flight path.|M|9.50, 59.70|R|-NightElf|
+f Menethil Harbor|QID|279|N|Get the flight path.|M|9.50, 59.70|TAXI|-Menethil Harbor|
 A The Greenwarden|QID|463|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 h Deepwater Tavern|QID|288|M|10.7,60.96|N|Make Deepwater Tavern your home location.|
@@ -72,7 +75,7 @@ A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar
 C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|R|NightElf|
 C The Algaz Gauntlet|QID|455||QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.|R|NightElf|
 T Tramping Paws|QID|276|M|56.34,40.41|N|To Rethiel the Greenwarden.|
-N Level 23|QID|277|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind. Close this step.|R|-NightElf|
+N Level 23|QID|277|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind. Close this step.|TAXI|Thelsamar|
 A Fire Taboo|QID|277|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|276|
 C Digging Through the Ooze|QID|470|M|44.00,24.00|US|N|Kill black oozes until you get Sida's Bag|
 C Fire Taboo|QID|277|M|32.3,33.2;39,34;44,34.2|CN|N|Kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|
