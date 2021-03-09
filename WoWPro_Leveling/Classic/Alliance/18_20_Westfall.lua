@@ -73,7 +73,7 @@ t Return to Verner|QID|119|M|30.97,47.27|Z|Redridge Mountains|N|To Verner Osgood
 t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
 T Dry Times|QID|116|M|26.49,43.95|Z|Redridge Mountains|N|To Barkeep Daniels.|
-F Westfall|QID|143|N|Return to Westfall, fly if your hearthstone isn't ready.|M|30.60,59.40|Z|Redridge Mountains|
+H Westfall|QID|143|N|Return to Westfall, fly if your hearthstone isn't ready.|
 T The Defias Brotherhood|QID|166|M|56.3,47.5|N|To Gryan Stoutmantle. Skip if you are not doing Deadmines.|
 T Messenger to Westfall|QID|143|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A Messenger to Westfall|QID|144|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|143|
