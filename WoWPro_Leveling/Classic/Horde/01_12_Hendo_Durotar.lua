@@ -52,12 +52,12 @@ T Tainted Parchment|QID|3090|N|To Nartok at the very back of the Den. Also train
 
 A Galgar's Cactus Apple Surprise|QID|4402|M|42.73,67.24|N|From Galgar.|PRE|788|
 l Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|QO|1|N|Collect Cactus apples from random cactuses around the area.|S|
-l Sting of the Scorpid|QID|789|M|41.61,63.61|QO|1|N|Kill Scorpid Workers for their tails.|S|
+C Sting of the Scorpid|QID|789|M|41.61,63.61|N|Kill Scorpid Workers for their tails.|S|
 A Sarkoth|QID|790|M|40.63,62.63|N|From Hana'zua.|
-K Sarkoth|QID|790|M|40.66,65.73|QO|1|N|Kill Sarkoth and loot his Mangled Claw. He is a level 4 mob.|T|Sarkoth|
+C Sarkoth|QID|790|M|40.66,65.73|QO|1|N|Kill Sarkoth and loot his Mangled Claw. He is a level 4 mob.|T|Sarkoth|
 T Sarkoth|QID|790|M|40.59,62.59|N|To Hana'zua.|
 A Sarkoth|QID|804|M|40.59,62.59|N|From Hana'zua.|PRE|790|
-l Sting of the Scorpid|QID|789|M|41.61,63.61|QO|1|N|Kill Scorpid Workers for their tails.|US|
+C Sting of the Scorpid|QID|789|M|41.61,63.61|N|Kill Scorpid Workers for their tails.|US|
 l Galgar's Cactus Apple Surprise|QID|4402|M|43.30,64.23|QO|1|N|Finish collecting your Cactus apples.|US|
 L Level 4|QID|4402^789^804|N|Grind until your xp bar is at least halfway to level 4. The three quests we are about to turn in will make you level.|LVL|3;-700|
 
@@ -70,9 +70,9 @@ A Call of Earth|QID|1516|M|42.41,69.16|N|From Canaga Earthcaller.|R|Orc,Troll|C|
 A Vile Familiars|QID|792|M|42.85,69.15|N|From Zureetha Fargaze.|C|-Warlock|
 A Lazy Peons|QID|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
 C Lazy Peons|QID|5441|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them. Look for the piles of wood logs.|T|Lazy Peon|U|16114|S|NC|
-l Call of Earth|QID|1516|L|6640 2|N|Kill Felstalkers to loot their hooves.\nYou'll find them inside the cave.|R|Orc,Troll|C|Shaman|S|
+C Call of Earth|QID|1516|N|Kill Felstalkers to loot their hooves.\nYou'll find them inside the cave.|R|Orc,Troll|C|Shaman|S|
 K Vile Familiars|QID|792|M|45.17,57.12|QO|1|N|Kill Vile Familiars in front of the cave.|
-l Call of Earth|QID|1516|L|6640 2|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
+C Call of Earth|QID|1516|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
 C Lazy Peons|QID|5441|N|Finish waking the Lazy Peons.|T|Lazy Peon|U|16114|US|NC|
 T Lazy Peons|QID|5441|M|44.62,68.65|N|To Foreman Thazz'ril.|
 A Thazz'ril's Pick|QID|6394|M|44.62,68.65|N|From Foreman Thazz'ril.|PRE|5441|
@@ -108,8 +108,8 @@ A Zalazane|QID|826|M|55.95,74.72|N|From Master Gadrin.|
 A Report to Orgnil|QID|823|M|55.95,74.72|N|From Master Gadrin.|
 A A Solvent Spirit|QID|818|M|55.94,74.39|N|From Master Vornal.|
 A Practical Prey|QID|817|M|55.95,73.93|N|From Vel'rin Fang.|
-= Herbalism|ACTIVE|808^817^818^823^826|M|55.44,75.08|N|Mishiki, Herbalist, trainer. Sen'jin Village|P|Herbalism;182;0+1;0|
-= Alchemy|ACTIVE|808^817^818^823^826|M|55.41,73.95|N|Miao'zan, Journeyman Alchemist, Sen'jin Village.|P|Alchemy;171;0+1;0|
+= Herbalism|ACTIVE|808^817^818^823^826|M|55.44,75.08|N|Mishiki, Herbalist, trainer. Sen'jin Village|P|Herbalism;182;0;0|
+= Alchemy|ACTIVE|808^817^818^823^826|M|55.41,73.95|N|Miao'zan, Journeyman Alchemist, Sen'jin Village.|P|Alchemy;171;0;0|
 A Thwarting Kolkar Aggression|QID|786|M|54.29,73.23|N|From Lar Prowltusk. If he's not here by the tree, wait a few minutes for him to return. If you chose not to wait for him, you can find him just SW of your location.|
 A A Peon's Burden|QID|2161|M|52.05,68.32|N|From Ukor, at the sign post.|
 
@@ -120,6 +120,9 @@ A Dark Storms|QID|806|M|52.24,43.15|N|From Orgnil Soulscar.|PRE|823|
 A Vanquish the Betrayers|QID|784|M|51.95,43.50|N|From Gar'Thok.|
 
 ; -- Training in Razor Hill
+= Train|ACTIVE|2161|M|51.98,43.70|N|Go learn your level 6 spells from Kaplak standing beside Gar'Thok.\nRight-click this step off once you are done.|C|Rogue|
+= Train|ACTIVE|2161|M|51.85,43.49|N|Go learn your level 6 spells from Thotar standing below Gar'Thok.\nRight-click this step off once you are done.|C|Hunter|
+= Train|ACTIVE|2161|M|52.02,43.55|N|Go learn your level 6 spells from Harruk standing beside Thotar.\nRight-click this step off once you are done.|C|Hunter|
 = Train|ACTIVE|2161|M|54.26,42.94|N|Go learn your level 6 spells from Tai'jin inside Razor Hill Barracks.\nRight-click this step off once you are done.|C|Priest|
 = Train|ACTIVE|2161|M|54.42,42.59|N|Go learn your level 6 skills/spells from Swart inside Razor Hill Barracks.\nRight-click this step off once you are done.|C|Shaman|
 = Train|ACTIVE|2161|M|54.19,42.47|N|Go learn your level 6 spells from Tarshaw Jaggedscar inside Razor Hill Barracks.\nRight-click this step off once you are done.|C|Warrior|
@@ -137,62 +140,68 @@ T A Peon's Burden|QID|2161|M|51.52,41.65|N|To Innkeeper Grosk.|
 h Razor Hill|QID|784|M|51.52,41.65|N|At Innkeeper Grosk.|
 A Break a Few Eggs|QID|815|M|51.11,42.45|N|From Cook Torka.|
 A Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|From Furl Scornbrow atop the watchtower northwest of Razor Hill.|
-l Carry Your Weight|ACTIVE|791|M|56.36,54.22|L|4870 8|N|Just kill things. You have a chance of looting the Canvas Scraps from every kill.\nThe Kul Tiras Marines and Sailors have the highest drop rate.|S|
+C Carry Your Weight|QID|791|M|56.36,54.22|N|Just kill things. You have a chance of looting the Canvas Scraps from every kill.\nThe Kul Tiras Marines and Sailors have the highest drop rate.|S|
 K Vanquish the Betrayers|QID|784|M|56.33,54.25|QO|1;2|N|Kill Kul Tiras Sailors & Marines as you make your way into the building.|S|
 K Lieutenant Benedict|QID|784|M|59.6,58.2|QO|3|N|Kill Lieutenant Benedict. You'll find him in the main room upstairs.
 l Benedict's Chest|AVAILABLE|830|M|59.26,57.67|L|4881 1|N|Make your way upstairs to the roof. Use Benedict's key to unlock the chest and loot the Aged Envelope.|U|4882|
 A The Admiral's Orders|QID|830|U|4881|N|Open the Aged Envelope.|
 K Vanquish the Betrayers|QID|784|QO|1;2|N|Finish killing Kul Tiras Sailors & Marines.|US|
-l Carry Your Weight|ACTIVE|791|L|4870 8|N|Finish collecting the Canvas Straps before leaving the area.|US|
+C Carry Your Weight|QID|791|N|Finish collecting the Canvas Straps before leaving the area.|US|
 T Vanquish the Betrayers|QID|784|M|51.95,43.50|N|To Gar'Thok.|
 A From The Wreckage....|QID|825|M|51.95,43.50|N|From Gar'Thok.|PRE|784|
 T The Admiral's Orders|QID|830|M|51.95,43.50|N|To Gar'Thok.|
 A The Admiral's Orders|QID|831|M|51.95,43.50|N|From Gar'Thok.|PRE|830|
 A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|To Furl Scornbrow.|
+C A Solvent Spirit|QID|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|S|
+l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for the Gnomish Tools amongst the ship wrecks.|
+C A Solvent Spirit|ACTIVE|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
 K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Kill Makrura along the way to loot the Eyes.|S|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Kill Crawlers along the way to loot the Mucus.|S|
-l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for Gnomish Tools.|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4887 4|N|Finish killing Makrura to loot the Eyes.|US|
-l A Solvent Spirit|ACTIVE|818|M|60.33,49.85|L|4888 8|N|Finish killing Crawlers to loot the Mucus.|US|
-L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Crawlers and Makrura if not.|LVL|7;-700|
+L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Razormane in the area.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
-r Repair/Restock|QID|786|M|51.92,41.18|N|At Wuark.|
+r Repair/Restock|QID|786|M|51.90,41.14|N|At Wuark.|
 = Train|QID|786|N|Go learn your level 8 skills/spells. Right-click this step off once you are done.|C|-Mage|
 R Sen'jin Village|QID|786|M|54.33,72.91|N|Head to Sen'jin Village.|C|Mage|
 = Train|QID|786|N|Learn your level 8 spells. Right-click this step off once you are done.|C|Mage|
 
 R Kolkar Crag|QID|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
-C Thwarting Kolkar Aggression|QID|786|M|49.82,81.30|QO|1|N|Destroy Attack Plan: Valley of Trials.|NC|
-C Thwarting Kolkar Aggression|QID|786|M|47.66,77.33|QO|2|N|Destroy Attack Plan: Sen'jin Village.|NC|
-C Thwarting Kolkar Aggression|QID|786|M|48.13,79.97;46.22,78.96|CC|QO|3|N|Destroy Attack Plan: Orgrimmar.|NC|
-T Thwarting Kolkar Aggression|QID|786|M|54.42,75.01|N|To Lar Prowltusk.|
+C Thwarting Kolkar Aggression|QID|786|M|49.82,81.30|QO|1|N|Enter Kolkar Crag and head into the alcove to your left.\nClick on the 'Attack Plan: Valley of Trials' to destroy it. It's on the ground inside the tent.|NC|
+C Thwarting Kolkar Aggression|QID|786|M|47.66,77.33|QO|2|N|Continue west into Kolkar Crag and go right at the fork.\nClick on the 'Attack Plan: Sen'jin Village' to destroy it. It's on the ground beneath the canopy.|NC|
+C Thwarting Kolkar Aggression|QID|786|M|46.22,78.96|QO|3|N|Head back to the fork and go to the right of it\nClick on the 'Attack Plan: Orgrimmar' to destroy it. It's on the ground beneath the canopy.\n[color=FF0000]NOTE: [/color]The 3 guards won't be cleared as easily as the previous ones. All three of them are range attackers. Approach them accordingly.|NC|
+R Sen'jin Village|ACTIVE|786|M|53.67,75.92|N|Head back to the Kolkar Crag Entrance and make your way to Sen'jin Village.|
+T Thwarting Kolkar Aggression|QID|786|M|54.43,75.00|N|To Lar Prowltusk, just outside Sen'jin Village.\n[color=FF0000]NOTE: [/color]He likes to move around quite a bit, making stops at several locations between the fallen tree, the rocks and the tree by the road.|
 T A Solvent Spirit|QID|818|M|55.94,74.39|N|To Master Vornal.|
 
-C Break a Few Eggs|QID|815|QO|1|N|Loot Taillasher Eggs from the Raptor nests.|NC|S|
-C Practical Prey|QID|817|QO|1|N|Kill Durotar Tigers for their hides.|S|
-C Zalazane|QID|826|QO|1;2|N|Kill Voodoo and Hexed Trolls.|S|
+l Break a Few Eggs|ACTIVE|815|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.|S|
+C Practical Prey|QID|817|M|64.68,80.84|N|Kill Durotar Tigers for their hides.|S|
+K Zalazane|QID|826|QO|1;2|M|67.25,86.96|N|Kill Voodoo and Hexed Trolls.|S|
 C Zalazane|QID|826|M|67.40,86.99|QO|3|N|Kill Zalane and loot his head.|
-C Minshina's Skull|QID|808|M|67.46,87.81|QO|1|N|Loot Minshina's Skull from the pile.|NC|
-C Zalazane|QID|826|QO|1;2|N|Kill the remaining Voodoo and Hexed Trolls in the area.|US|
-C Break a Few Eggs|QID|815|QO|1|N|Finish collecting your Taillasher Eggs.|US|
-C Practical Prey|QID|817|QO|1|N|Finish colDestroy lecting your Durotar hides.|US|
-T Minshina's Skull|QID|808|M|55.97,74.73|N|To Master Gadrin.|
+l Minshina's Skull|ACTIVE|808|M|67.46,87.81|L|4864|N|Loot Minshina's Skull from the pile.|
+K Zalazane|QID|826|QO|1;2|M|67.16,82.59|N|Finish killing Voodoo and Hexed Trolls.\n[color=FF0000]NOTE: [/color]You'll find most of them around the huts on the outskirts of the main village (where Zalazane is).|US|
+l Break a Few Eggs|ACTIVE|815|M|63.68,83.25|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.\n[color=FF0000]NOTE: [/color]Look for the Raptors. You might find a nest nearby.|US|
+C Practical Prey|QID|817|M|65.49,81.55|N|Finish collecting your Durotar hides.|US|
+T Minshina's Skull|QID|808|M|55.95,74.72|N|To Master Gadrin in Sen'jin Village.|
 T Zalazane|QID|826|M|55.97,74.73|N|To Master Gadrin.|
-r Repair/Restock|QID|817|M|56.46,73.15|N|At Master Gadrin.|
+r Repair/Restock|ACTIVE|817|M|56.39,73.53|N|There are several vendors inside the hut.\nTrayexir can repair you.|
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
-T Break a Few Eggs|QID|815|M|51.20,42.47|N|To Cook Torka in Razor Hill.|
-
-C Encroachment|QID|837|M|44.50,40.70|QO|3;4|N|Head west from Razor Hill and kill Razormane Dustunners and Battleguards.\nDon't get too close to the village. There is an 11 elite in there.|
-A Lost But Not Forgotten|QID|816|M|43.11,30.39|N|From Misha Tor'kren.|
-A Winds in the Desert|QID|834|M|46.36,22.84|QO|1|N|From Rezlak.|
-C Winds in the Desert|QID|834|M|48.76,21.41|QO|1|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|NC|
-T Winds in the Desert|QID|834|M|46.36,22.84|N|To Rezlak.|
-A Securing the Lines|QID|835|M|46.36,22.84|N|From Rezlak.|PRE|834|
+R Razor Hill|ACTIVE|815|M|52.48,44.42|N|Follow the road north to Razor Hill, or go cross country to do some grinding.|
+T Break a Few Eggs|QID|815|M|51.11,42.45|N|To Cook Torka in Razor Hill.|
+R Razormane Grounds|ACTIVE|837|M|44.53,40.85|QO|1;2|N|Head west out of Razor Hill to Razormane Grounds (north side of the road).|
+K Encroachment|QID|837|M|43.94,40.46|QO|3;4|N|Kill Razormane Dustunners and Battleguards.\n[color=FF0000]NOTE: [/color]Don't get too close to the village (where the fire is). There is an 11 elite in there, Captain Flat Tusk.|
+A Lost But Not Forgotten|QID|816|M|43.10,30.24|N|From Misha Tor'kren.|
+A Winds in the Desert|QID|834|M|46.37,22.94|N|From Rezlak.|
+l Winds in the Desert|QID|834|M|49.86,24.32|L|4918 5|N|Walk east across the road to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
+T Winds in the Desert|QID|834|M|46.37,22.94|N|To Rezlak.|
+A Securing the Lines|QID|835|M|46.37,22.94|N|From Rezlak.|PRE|834|
 
 L Level 10|QID|837|N|You'll want to be level 10 when you turn in your next quest in Razor Hill. Grind on harpies until you are 2 bubbles from leveling.|LVL|9;-630|
-T Encroachment|QID|837|M|51.92,43.51|N|To Gar'Thok.|
+T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok in Razor Hill.|
+
+= Train|QID|840|N|Go learn your level 10 skills/spells. Right-click this step off once you are done.|LVL|10|C|-Mage|IZ|Razor Hill|
+R Sen'jin Village|QID|840|M|54.33,72.91|N|Head to Sen'jin Village.|LVL|10|C|Mage|
+= Train|QID|840|N|Learn your level 10 spells. Right-click this step off once you are done.|LVL|10|C|Mage|
+R Razor Hill|QID|840|M|52.48,44.42|N|Return to Razor Hill.|LVL|10|C|Mage|
+
 ; --- Level 10 Class Quests
 ; --- Hunter (Only quest chain that is done in Razor Hill)
 T The Hunter's Path|QID|6069|M|51.85,43.49|N|To Thotar.|R|Orc,Troll|C|Hunter|
@@ -216,30 +225,31 @@ A Veteran Uzzek|QID|1505|M|54.19,42.47|N|From Tarshaw Jaggedscar.|R|Orc,Troll|C|
 ; --- Shaman
 A Call of Fire|QID|2983|M|54.42,42.59|N|From Swart.|R|Orc,Troll|C|Shaman|
 
-A Conscript of the Horde|QID|840|M|50.89,43.56|N|From Takrin Pathseeker.|
-A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag.\n\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
-R Orgrimmar|QID|812|M|45.51,12.06|CC|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
-T The Admiral's Orders|QID|831|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;32.27,35.79|Z|Orgrimmar|CC|N|As you enter Orgrimmar, continue straight until you reach the Drag. Enter the Drag and follow the road until you reach Grommash Hold. You'll find Nazgrel inside the 2nd room.|
-A Hidden Enemies|QID|5726|M|31.91,37.78|Z|Orgrimmar|N|From Thrall.|
-A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|L|-4904|N|From Khorgan.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
+A Conscript of the Horde|QID|840|M|50.85,43.59|N|From Takrin Pathseeker.|
+A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag at Rocktusk Farm. Follow the road north out of Razor Hill or go cross country for some grinding.\n\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
+R Orgrimmar|ACTIVE|-812&831|M|45.51,12.06|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
+R Orgrimmar|ACTIVE|812|AVAILABLE|813|M|45.51,12.06|QO|1|N|Make your way northeast to the gates of Orgrimmar.|
+R Grommash Hold|ACTIVE|831|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;40.30,36.94|Z|Orgrimmar|CC|N|As you enter Orgrimmar, continue straight until you reach the Drag. Enter the Drag and follow the road until you reach Grommash Hold.\n[color=FF0000]NOTE: [/color]There are multiple routes, but this is the fastest one I've found.|
+T The Admiral's Orders|QID|831|M|32.27,35.79|Z|Orgrimmar|N|To Nazgrel inside the 2nd room of Grommash Hold.|
+A Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
+A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|L|-4904|N|From Khorgan in the Cleft of Shadow.\n\n[color=FF0000]NOTE: [/color]As long as you pick up this quest, the 'Need for a Cure' timer is irrelevant.|
 
 ; --- locations of profession trainers in Orgrimmar
-N First Aid|ACTIVE|5726|M|34.17,84.55|Z|Orgrimmar|P|First Aid;129;0+1;0|N|Arnok, First Aid Trainer, The Valley of Spirits.|
-N Cooking|ACTIVE|5726|M|57.39,53.95|Z|Orgrimmar|P|Cooking;185;0+1;0|N|Zamja, Cooking Trainer, The Drag - 2nd level.|
-N Enchanting|ACTIVE|5726|M|53.46,38.56|Z|Orgrimmar|P|Enchanting;333;0+1;0|N|Jhag, Journeyman Enchanter, The Drag.|
-N Leatherworking|ACTIVE|5726|M|63.30,44.75|Z|Orgrimmar|P|Leatherworking;165;0+1;0|N|Kamari, Journeyman Leatherworker, The Drag.|
-N Skinning|ACTIVE|5726|M|63.35,45.42|Z|Orgrimmar|P|Skinning;393;0+1;0|N|Thuwd, Skinning Trainer, The Drag.|
-N Tailoring|ACTIVE|5726|M|62.93,49.26|Z|Orgrimmar|P|Tailoring;197;0+1;0|N|Snang, Journeyman Tailor, The Drag.|
-N Alchemy|ACTIVE|5726|M|55.80,32.91|Z|Orgrimmar|P|Alchemy;171;0+1;0|N|Whuut, Journeyman Alchemist, The Drag.|
-N Herbalism|ACTIVE|5726|M|55.61,39.46|Z|Orgrimmar|P|Herbalism;182;0+1;0|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|
-N Fishing|ACTIVE|5726|M|69.81,29.20|Z|Orgrimmar|P|Fishing;356;0+1;0|N|Lumak, Fishing Trainer, Valley of Honor.|
-N Mining|ACTIVE|5726|M|73.12,26.08|Z|Orgrimmar|P|Mining;186;0+1;0|N|Makaru, Mining Trainer, Valley of Honor.|
-N Engineering|ACTIVE|5726|M|75.95,24.18|Z|Orgrimmar|P|Engineering;202;0+1;0|N|Thund, Journey Engineer, Valley of Honor.|
-N Blacksmithing|ACTIVE|5726|M|80.76,23.70|Z|Orgrimmar|P|Blacksmithing;164;0+1;0|N|Ug'thok, Journey Blacksmith, Valley of Honor.|
-; ---
-N Weapon Masters|ACTIVE|5726|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|
-N Weapon Masters|ACTIVE|5726|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|
-N Weapon Masters|ACTIVE|5726|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|
+N Cooking|ACTIVE|5726|M|57.39,53.95|Z|Orgrimmar|N|Zamja, Cooking Trainer, The Drag - 2nd level.|P|Cooking;185;0;0|IZ|Orgrimmar|
+N Enchanting|ACTIVE|5726|M|53.46,38.56|Z|Orgrimmar|N|Jhag, Journeyman Enchanter, The Drag.|P|Enchanting;333;0;0|IZ|Orgrimmar|
+N Leatherworking|ACTIVE|5726|M|63.30,44.75|Z|Orgrimmar|N|Kamari, Journeyman Leatherworker, The Drag.|P|Leatherworking;165;0;0|IZ|Orgrimmar|
+N Skinning|ACTIVE|5726|M|63.35,45.42|Z|Orgrimmar|N|Thuwd, Skinning Trainer, The Drag.|P|Skinning;393;0;0|IZ|Orgrimmar|
+N Tailoring|ACTIVE|5726|M|62.93,49.26|Z|Orgrimmar|N|Snang, Journeyman Tailor, The Drag.|P|Tailoring;197;0;0|IZ|Orgrimmar|
+N Alchemy|ACTIVE|5726|M|55.80,32.91|Z|Orgrimmar|N|Whuut, Journeyman Alchemist, The Drag.|P|Alchemy;171;0;0|IZ|Orgrimmar|
+N Herbalism|ACTIVE|5726|M|55.61,39.46|Z|Orgrimmar|N|Jandi, Herbalism Trainer, The Drag - 2nd level.|P|Herbalism;182;0;0|IZ|Orgrimmar|
+N Mining|ACTIVE|5726|M|73.12,26.08|Z|Orgrimmar|N|Makaru, Mining Trainer, Valley of Honor.|P|Mining;186;0;0|IZ|Orgrimmar|
+N Engineering|ACTIVE|5726|M|75.95,24.18|Z|Orgrimmar|N|Thund, Journey Engineer, Valley of Honor.|P|Engineering;202;0;0|IZ|Orgrimmar|
+N Blacksmithing|ACTIVE|5726|M|80.76,23.70|Z|Orgrimmar|N|Ug'thok, Journey Blacksmith, Valley of Honor.|P|Blacksmithing;164;0;0|IZ|Orgrimmar|
+N Fishing|ACTIVE|5726|M|69.81,29.20|Z|Orgrimmar|N|Lumak, Fishing Trainer, Valley of Honor.|P|Fishing;356;0;0|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|5726|M|81.70,19.53|Z|Orgrimmar|N|Sayoc and Hanashi in Valley of Honor.\nSayoc teaches bows, daggers, fist weapons, one & two-handed axes, and thrown weapons.\nHanashi teaches bows, one & two-handed axes, staves, and thrown weapons.|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|5726|M|57,32|Z|Undercity|N|If you wish to learn swords, you'll have to take the Zepplin to Undercity. Archibald is in the War Quarter. He teaches crossbows, daggers, one & two handed swords and polearms.|IZ|Orgrimmar|
+N Weapon Masters|ACTIVE|5726|M|40.94,62.74|Z|Thunder Bluff|N|If you wish to learn maces, you'll have to take the Zepplin to Thunder Bluff. Ansekwa is on the lower plateau. He teaches one & two handed maces, staves and guns.|IZ|Orgrimmar|
+N First Aid|ACTIVE|5726|M|34.17,84.55|Z|Orgrimmar|N|Arnok, First Aid Trainer, The Valley of Spirits.|P|First Aid;129;0;0|IZ|Orgrimmar|
 
 ; --- Class quests in Orgrimmar
 ; --- Mage
@@ -247,21 +257,30 @@ A Speak with Un'thuwa|QID|1883|M|39.15,86.27|Z|Orgrimmar|N|From Uthel'nay, Valle
 ; --- Hunter
 T Training the Beast|QID|6081|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|R|Orc,Troll|C|Hunter|
 ; --- Rogue
-T Therzok|QID|1859|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|R|Orc,Troll|C|Rogue|
+T Therzok|QID|1859|M|42.74,53.55|Z|Orgrimmar|N|To Therzok in Cleft of Shadow.|R|Orc,Troll|C|Rogue|
 A The Shattered Hand|QID|1963|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|R|Orc,Troll|C|Rogue|
 ; --- Warlock
 T Gan'rul's Summons|QID|1506|M|48.25,45.29|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|Orc|C|Warlock|
 A Creature of the Void|QID|1501|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1506|R|Orc|C|Warlock|
 ; ---
-R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+R Leave Orgrimmar|ACTIVE|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
+
+N Sword Training|ACTIVE|816|M|PLAYER|N|If you wish to start using swords, now is the best time to go learn the skill from Archibald in Undercity. The cost is 10 silver.\n[color=FF0000]NOTE: [/color]If you are not interested, then just skip the next few steps.|C|Rogue|
+b Tirisfal Glades|ACTIVE|816|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|C|Rogue|
+R Undercity|ACTIVE|816|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity and take the elevator down.|C|Rogue|
+N Archibald|ACTIVE|816|M|57.32,32.74|Z|Undercity|N|Make your way to Undercity's War Quarter inner ring.\n[color=FF0000]NOTE: [/color]Check this step off when you are done.|C|Rogue|IZ|Undercity|
+R Leave Undercity|ACTIVE|816|M|53.40,43.56;63.61,47.52;72.77,40.03;66.15,37.11;66.29,1.94|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|C|Rogue|IZ|Undercity|
+b Durotar|ACTIVE|816|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Rogue|IZ|Tirisfal Glades|
+
 C Finding the Antidote|QID|813|ACTIVE|812|M|41.49,19.39|QO|1|N|Head back to the area around Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
-R Enter Orgrimmar|QID|812|M|45.52,12.07|CC|N|Head back to Orgrimmar.|
-T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39;47.24,53.58|Z|Orgrimmar|CC|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. if you lose the antidote, this quest is repeatable.|
-R Leave Orgrimmar|QID|812|M|56.39,41.32;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|
+R Orgrimmar|ACTIVE|813|M|45.52,12.07|N|Head back to Orgrimmar.|
+R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|Z|Orgrimmar|CC|
+T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. If you lose the antidote, this quest is repeatable.|
+R Leave Orgrimmar|QID|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|Orgrimmar|
+A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 
-C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.|
+C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|
 T Conscript of the Horde|QID|840|M|62.27,19.37|Z|The Barrens|N|To Kargal Battlescar at Far Watch Outpost, Barrens. It's just on the other side of the Southfury Bridge.|
 A Crossroads Conscription|QID|842|M|62.27,19.37|Z|The Barrens|N|From Kargal Battlescar.|PRE|840|
 
@@ -278,7 +297,7 @@ R Thunder Ridge|QID|806|M|39.18,32.29|N|Run to the entrance of Thunder Ridge.|
 C Path of Defense|QID|1498|N|While you are in Thunder Ridge get the scales from the Thunder Lizards.|R|Orc,Troll|C|Warrior|S|
 R Dark Storms|QID|806|M|41.67,25.54|CC|N|The path to Fizzle Darkstorm's camp is here.|
 C Hidden Enemies|QID|5726|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|S|
-C Dark Storms|QID|806|QO|1|N|Kill Fizzle Darkstorm and loot his Claw. He wanders around the camp, so clear the camp around him to get him without adds. Depending on your class you should kill his Imp first.|
+C Dark Storms|QID|806|QO|1|N|Kill Fizzle Darkstorm and loot his Claw. He pathes between the campfire and the alcove to the east.\nStarting with the guard circling the perimeter, clear the camp in a counter-clockwise direction. It's probably best to wait until Fizzle moves to the alcove before starting each fight.|
 C Path of Defense|QID|1498|N|Finish collecting the scales from the Thunder Lizards.|R|Orc,Troll|C|Warrior|US|
 R Exit Thunder Ridge|QID|806|M|39.18,32.29|CC|N|Run back to the entrance of Thunder Ridge.|
 T Lost But Not Forgotten|QID|816|M|43.11,30.22|N|To Misha Tor'kren.|
