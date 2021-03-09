@@ -33,8 +33,9 @@ A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BF
 T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 
+;Only do Thelsamar order tasks at this stage if player doesn't have Menethil Flightpoint and will be in Loch Modan anyway.
 F Menethil Harbor|QID|288|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
-F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thelsamar|TAXI|-Menethil Harbor|
+F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thelsamar (or run to Loch Modan from Dun Morogh if you do not have the Thelsamar FP yet)|TAXI|-Menethil Harbor|
 A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
 R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|TAXI|-Menethil Harbor|
 C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|
@@ -66,12 +67,12 @@ C The Absent Minded Prospector|QID|943|M|38.86,52.2|QO|2|N|Loot the Fossil on th
 T The Greenwarden|QID|463|M|56.34,40.41|N|To Rethiel the Greenwarden.|
 A Tramping Paws|QID|276|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|463|
 C Tramping Paws|QID|276|M|62.00,70.00|N|Kill the mobs needed for this quest.|
-R Dun Algaz|AVAILABLE|455|M|54.00,70.50|CS|Z|Wetlands|N|Run to the Dun Algaz tunnnel entrance|R|NightElf|
-R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|CS|Z|Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|R|NightElf|
-f Thelsamar|QID|276|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|R|NightElf|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|R|NightElf|
-C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|R|NightElf|
-C The Algaz Gauntlet|QID|455||QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.|R|NightElf|
+R Dun Algaz|AVAILABLE|455|M|54.00,70.50|CS|Z|Wetlands|N|Run to the Dun Algaz tunnnel entrance|
+R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|CS|Z|Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|
+f Thelsamar|QID|276|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.
+C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.
+C The Algaz Gauntlet|QID|455||QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.
 T Tramping Paws|QID|276|M|56.34,40.41|N|To Rethiel the Greenwarden.|
 N Level 23|QID|277|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind. Close this step.|TAXI|Thelsamar|
 A Fire Taboo|QID|277|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|276|
