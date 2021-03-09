@@ -59,8 +59,7 @@ C Claws from the Deep|QID|279|M|20,40.6|S|QO|1|N|Kill Bluegill Murlocs.|
 C Gobbler's Head|QID|279|M|18.10,40.10|QO|2|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|T|Gobbler|
 C Claws from the Deep|QID|279|M|20,40.6|US|QO|1|N|Kill Bluegill Murlocs.|
 C Digging Through the Ooze|QID|470|M|44.00,24.00|S|N|Kill black oozes until you get Sida's Bag|
-R Excavation Site|AVAILABLE|294|M|34.10,40.80;37.00,42.75|CS|N|Head towards the Excavation Site and take the path to the left up the hill|
-A Ormer's Revenge|QID|294|M|38.07,51.18|N|From Ormer Ironbraid|
+A Ormer's Revenge|QID|294|M|34.10,40.80;37.00,42.75;38.07,51.18|N|Head towards the Excavation Site and take the path to the left up the hill. Accept the quest from Ormer Ironbraid|
 T In Search of The Excavation Team |QID|305|M|38.91,52.34|N|To Merrin Rockweaver.|
 A In Search of The Excavation Team |QID|306|M|38.91,52.34|N|From Merrin Rockweaver.|PRE|305|
 C The Absent Minded Prospector|QID|943|M|38.86,52.2|QO|2|N|Loot the Fossil on the ground in front of the dwarves.|

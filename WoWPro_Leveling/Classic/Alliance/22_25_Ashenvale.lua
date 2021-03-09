@@ -61,8 +61,7 @@ A Elune's Tear|QID|1033|M|37.36,51.79|N|From Pelturas Whitemoon. This quest beco
 R Stonetalon Mountains|QID|1070|CS|M|37.50,60.80;42.3,71.09|Z|Ashenvale|N|Head to the Stonetalon cave.|
 R Windshear Crag|ACTIVE|1070|M|76,46.21|Z|Stonetalon Mountains|N|Follow the path with lanterns throught the cave.|
 A Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizziks.|
-R Kaela Shadowspear|QID|1085|M|60.50,70.00;58.80,68.20|CS|Z|Stonetalon Mountains|N|Follow the path around the hill up to the camp.|
-T On Guard in Stonetalon |QID|1070|M|59.90,66.84|Z|Stonetalon Mountains|N|To Kaela Shadowspear.|
+T On Guard in Stonetalon |QID|1070|M|60.50,70.00;58.80,68.20;59.90,66.84|CS|Z|Stonetalon Mountains|N|Follow the path around the hill up to the camp. Turn in the quest to Kaela Shadowspear.|
 A On Guard in Stonetalon |QID|1085|M|59.90,66.84|Z|Stonetalon Mountains|N|From Kaela Shadowspear.|
 T On Guard in Stonetalon |QID|1085|M|59.52,67.14|Z|Stonetalon Mountains|N|To Gaxim Rustfizzle.|
 A A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|PRE|1085|

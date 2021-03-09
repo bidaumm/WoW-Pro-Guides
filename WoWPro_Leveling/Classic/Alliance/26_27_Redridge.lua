@@ -20,12 +20,12 @@ h Lakeshire|QID|126|M|27.97,44.96|N|Set your hearthstone at Innkeeper Brianna|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|
 C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|
-R Gnoll Camps|QID|126|M|40.00,33.10|CC|N|Head north-east out of Lakeshire|
-C Howling in the Hills|QID|126|M|27.00,21.00|CS|N|Kill Yowler and loot his paw. He patrols between the camps in this area|
-R Render's Camp|QID|20|M|47.60,27.90|CC|N|Get back on the road and head towards Render's Camp|
+R Gnoll Camps|ACTIVE|126|M|40.00,33.10|CC|N|Head north-east out of Lakeshire|
+C Howling in the Hills|QID|126|M|40.00,33.10;27.00,21.00|CS|N|Kill Yowler and loot his paw. He patrols between the camps in this area|
+R Render's Camp|ACTIVE|20|M|47.60,27.90|CC|N|Get back on the road and head towards Render's Camp|
 C Blackrock Menace|QID|20|M|29.2,11.60|S|N|Kill Orcs until you get the items for this quest.|
-A Missing In Action|QID|219|M|28.4,12.56|N|From Corporal Keeshan.|
-C Missing In Action|QID|219|M|33.4,48.94|N|Escort him out of the cave and back to town.|
+A Missing In Action|QID|219|M|28.4,12.56|N|From Corporal Keeshan inside the cave.|
+C Missing In Action|QID|219|M|33.4,48.94|N|Escort him out of the cave and back to town. He is a elite level 25 and is able to tank a couple of mobs. His health will regen to full after 5 seconds of being out of combat.|
 T Missing In Action|QID|219|M|33.4,48.94|N|To Marshal Marris.|
 C Blackrock Bounty|QID|128|M|29.2,11.60|N|Kill Blackrock Champions.|
 C Blackrock Menace|QID|20|M|47.46,29.39;42.10,12.40|CN|US|N|Kill Orcs until you get the items for this quest.|
