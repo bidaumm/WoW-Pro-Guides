@@ -176,8 +176,8 @@ A The Twilight Camp|QID|949|N|From Onu through the scrying bowl.|PRE|944|
 C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside the Disciple. The one beside the Thug is the wrong one.|NC|
 T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
-N Leftover quest item|ACTIVE|950|N|S|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
-L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later. Skip if you're not interested.|
+N Leftover quest item|ACTIVE|950|S|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
+L Book: The Powers Below|ACTIVE|950|M|38.64,87.33|L|5352|S|N|The Twilight around here have a small chance to drop the book, turn in is in Ironforge which we will head to later.|
 A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|Click the book to accept the quest.|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 C Fruit of the Sea|QID|1138|S|N|Keep an eye out for Reef Crawlers and Encrusted Reef Crawlers whilst on the beaches of Darkshore|
@@ -206,7 +206,6 @@ A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|This NPC will only stop t
 C The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Protect him as he digs up stuff, let him engage the combat but watch his health to ensure he doesn't die. Troggs will spawn as he walks around, the very last wave will contain a geomancer. Be sure to kill the geomancer first as they cast fireball which does a LOT of damage. Interupts and Stuns help a lot.|
 A Therylune's Escape|QID|945|M|38.64,87.33|N|From Therylune. Might have to wait a few for her to respawn.|
 C Therylune's Escape|QID|945|M|40.51,87.09|N|Escort her out. Be sure to loot everything you kill as they have a chance of dropping a book that starts a quest.|
-A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|If you manage to loot the book click it in your inventory to accept the quest. Skip if you're not interested.|
 A One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
 C One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|Three waves of attacks... 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16. After killing all 3 waves, a short period of time will pass and the quest will complete.|
 T A Lost Master|QID|993|M|45,85.3|N|Start clearing into the camp, make sure to clear ALL the furbolgs out. Go into the cave and turn in A Lost Master. You will have 2 options, to escape by stealth or escape by force. Stealth is easy and awards cloth pants. Force is a very difficult escort and awards a leather belt and double the exp/silver than the stealth. If you have a group go for the force.|
@@ -251,9 +250,9 @@ A Researching the Corruption|QID|1275|PRE|3765|M|38.33,43.04|N|This is a dungeon
 F Rut'theran Village|ACTIVE|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
 R Darnassus|ACTIVE|951|M|55.88,89.55|Z|Teldrassil|
 F Auberdine|ACTIVE|951|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
+L Book: The Powers Below|ACTIVE|951|L|5352|S|N|\n[color=FF0000]OPTIONAL: [/color]If you haven't gotten the book yet you can grind the twilight members one last time as we will be moving to Ironforge next where the quest turn in is.|
 T Mathystra Relics|QID|951|M|43.5,76.3|N|To Onu.|
-L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|If you haven't gotten the book yet you can grind here one last time as we will be moving to Ironforge next where the quest turn in is. Otherwise go ahead and skip again.|
-N Next steps|ACTIVE|942|N|S|At this point, you should be done with every quest in the zone. The guide from this point will direct you on how to travel to Ironforge to turn in the Prospector and Powers Below quests. If you are already 20+ and do not wish to go to Ironforge yet you can finish the guide here and move to Ashenvale.|
+N Next steps|ACTIVE|942|S|N|At this point, you should be done with every quest in the zone. The guide from this point will direct you on how to travel to Ironforge to turn in the Prospector and Powers Below quests. If you are already 20+ and do not wish to go to Ironforge yet you can finish the guide here and move to Ashenvale.|
 H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
 b Wetlands|ACTIVE|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
 f Menethil Harbor|ACTIVE|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
