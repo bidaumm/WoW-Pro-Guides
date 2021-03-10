@@ -177,8 +177,7 @@ C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside 
 T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
 N Leftover quest item|ACTIVE|950|S|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
-L Book: The Powers Below|ACTIVE|950|M|38.64,87.33|L|5352|S|N|The Twilight around here have a small chance to drop the book, turn in is in Ironforge which we will head to later.|
-A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|Click the book to accept the quest.|
+A The Powers Below|QID|968|U|5352|O|N|The Twilight around here have a small chance to drop this book. Click the book to accept the quest.|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 C Fruit of the Sea|QID|1138|S|N|Keep an eye out for Reef Crawlers and Encrusted Reef Crawlers whilst on the beaches of Darkshore|
 A Beached Sea Creature|QID|4730|PRE|4681|M|32.73,80.75|N|Surrounded by level 15 Murlocs|
@@ -199,13 +198,14 @@ T Beached Sea Creature|QID|4730|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4731|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4732|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4733|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
-F Darnassus|ACTIVE|729|N|If you are level 18 take this opportunity to go visit your trainers, the bank, AH, etc.|
+F Rut'theran Village|ACTIVE|729|N|If you are level 18 take this opportunity to go visit your trainers, the bank, AH, etc.|
 N Escorts may need group|ACTIVE|729|S|N|You will be doing 5 escort quests in a row here. You can take the opportunity to look for others to assist you as it will make the next steps a lot easier.|
 T The Absent Minded Prospector|QID|729|M|35.69,83.63|N|If you are doing this quest with a group. DON'T accept next quest until all of your group has turned this in. Warn your group as well, so you can all start the escort together.|
 A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|This NPC will only stop to assist in combat if he gets hit first. If you are doing this quest solo be sure to let him walk ahead to engage in combat.|PRE|729|
 C The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Protect him as he digs up stuff, let him engage the combat but watch his health to ensure he doesn't die. Troggs will spawn as he walks around, the very last wave will contain a geomancer. Be sure to kill the geomancer first as they cast fireball which does a LOT of damage. Interupts and Stuns help a lot.|
 A Therylune's Escape|QID|945|M|38.64,87.33|N|From Therylune. Might have to wait a few for her to respawn.|
 C Therylune's Escape|QID|945|M|40.51,87.09|N|Escort her out. Be sure to loot everything you kill as they have a chance of dropping a book that starts a quest.|
+A The Powers Below|QID|968|M|38.64,87.33|U|5352|O|N|If you manage to loot the book click it in your inventory to accept the quest.|
 A One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
 C One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|Three waves of attacks... 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16. After killing all 3 waves, a short period of time will pass and the quest will complete.|
 T A Lost Master|QID|993|M|45,85.3|N|Start clearing into the camp, make sure to clear ALL the furbolgs out. Go into the cave and turn in A Lost Master. You will have 2 options, to escape by stealth or escape by force. Stealth is easy and awards cloth pants. Force is a very difficult escort and awards a leather belt and double the exp/silver than the stealth. If you have a group go for the force.|
@@ -250,13 +250,15 @@ A Researching the Corruption|QID|1275|PRE|3765|M|38.33,43.04|N|This is a dungeon
 F Rut'theran Village|ACTIVE|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
 R Darnassus|ACTIVE|951|M|55.88,89.55|Z|Teldrassil|
 F Auberdine|ACTIVE|951|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
-L Book: The Powers Below|ACTIVE|951|L|5352|S|N|\n[color=FF0000]OPTIONAL: [/color]If you haven't gotten the book yet you can grind the twilight members one last time as we will be moving to Ironforge next where the quest turn in is.|
+
 T Mathystra Relics|QID|951|M|43.5,76.3|N|To Onu.|
-N Next steps|ACTIVE|942|S|N|At this point, you should be done with every quest in the zone. The guide from this point will direct you on how to travel to Ironforge to turn in the Prospector and Powers Below quests. If you are already 20+ and do not wish to go to Ironforge yet you can finish the guide here and move to Ashenvale.|
+L Book: The Powers Below|ACTIVE|951|L|5352|M|38.80,86.60|N|This book has a small chance to drop from the Twilight Members now is your chance to grind for it as we will be moving to Ironforge next where the quest turn in is.|RANK|3|
+
 H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
 b Wetlands|ACTIVE|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
 f Menethil Harbor|ACTIVE|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
 T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
+
 F Ironforge|AVAILABLE|971|N|Fly to Ironforge|TAXI|Ironforge|
 R Harbor Docks|AVAILABLE|971|M|5.1,63.4|CC|N|We're now taking a shortcut to quickly get to Ironforge and then onto Stormwind. Head back to the docks and get on the Maiden's Virtue that is leaving for Theramore.|TAXI|-Ironforge|
 R Dun Morogh|AVAILABLE|971|M|32.0,6.4;17.7,16.4|CS|Z|Dun Morogh|N|Wait for the Maiden's Virtue to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|
@@ -264,6 +266,7 @@ R Kharanos|AVAILABLE|971|M|17.9,17|Z|Dun Morogh|CN|N|Head into the water and whi
 R Ironforge|AVAILABLE|971|M|47.40,41.80;54.2,34.40|CS|N|Head out of Kharanos and up the hill towards Ironforge.\n[color=FF0000]NOTE: [/color]You do not need to resurrect at the Spirit Healer|TAXI|-Ironforge|
 R Deeprun Tram|AVAILABLE|971|M|78.20,52.00|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
 f Ironforge|AVAILABLE|971|M|55.49,47.72|Z|Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
+
 T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 R Deeprun Tram|AVAILABLE|343|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
