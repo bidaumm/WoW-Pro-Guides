@@ -17,8 +17,8 @@ A For Love Eternal|QID|963|M|35.8, 43.7|N|From Cerellean Whiteclaw.|
 A Plagued Lands|QID|2118|M|38.8,43.4|N|From Tharnariun Treetender.|
 A How Big a Threat?|QID|984|M|39.3, 43.5|N|From Terenthis.|
 A The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|From Gubber Blump, on the beach near the inn.|
-N The Family and the Fishing Pole|ACTIVE|1141|S|M|36.10,44.93|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|P|Fishing;356;0+1;1|
-B The Family and the Fishing Pole|ACTIVE|1141|S|M|36.10,44.93|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|L|6256|
+N The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|P|Fishing;356;0+1;1|
+B The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|L|6256|
 C The Family and the Fishing Pole|QID|1141|M|36.10,44.93|NC|N|Just fish near him, Takes about 18 minutes at no skill with baubles. Skip if you don't care about fishing and a pole.|
 T The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|To Gubber Blump.|
 C Buzzbox 827|QID|983|M|36.0,50.0|S|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|
